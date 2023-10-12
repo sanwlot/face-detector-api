@@ -32,3 +32,5 @@ app.put('/image', (req, res) => image.handleImage(req, res, db))
 app.listen(3000, () => {
   console.log("App is running of PORT:3000")
 })
+
+// ajay sanwlot
