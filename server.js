@@ -13,7 +13,7 @@ const dbURI = process.env.DB_URI;
 
 const db = knex({
   client: 'pg',
-  connection: dbURI, // Use the DB_URI environment variable
+  connection: dbURI, // Use the DB_URI environment variable 
 });
 
 const app = express();
